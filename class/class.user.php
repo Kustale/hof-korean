@@ -262,9 +262,9 @@ class user {
 		if(!isset($this->item))
 			$this->LoadUserItem();
 		if($amount)
-			$this->item[$no]	+= $amount;
+			if(isset($this->item[$no])) $this->item[$no]	+= $amount;
 		else
-			$this->item[$no]++;
+			if(isset($this->item[$no])) $this->item[$no]++;
 	}
 
 
@@ -306,6 +306,7 @@ class user {
 
 
 	function SaveUserItem() {
+		$text = "";
 		$dir	= USER.$this->id;
 		if(!file_exists($dir))
 			return false;

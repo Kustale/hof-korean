@@ -1606,7 +1606,12 @@ JS_HTML;
 		if(!__POST("ItemSell"))
 			return false;
 
-		$GetMoney	= 0;
+		$getMoney	= 0;
+		$item = array();
+		$Deleted = 0;
+		$sellPrice = 0;
+		$Total = 0;
+		
 		print("<div style=\"margin:15px\">");
 		print("<table cellspacing=\"0\">\n");
 		print('<tr><td class="td6" style="text-align:center">가격</td>'.

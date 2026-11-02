@@ -70,6 +70,15 @@ class JS_ItemList {
 	}
 
 	function GetJavaScript($Id) {
+			
+		$JS_other = "";
+		$JS_weapon = "";
+		$JS_armor = "";
+		$JS_item = "";
+		$insert = "";
+		$Table0 = "";
+		$Table1 = "";
+		
 		if($this->NoJS)
 			return NULL;
 
@@ -136,6 +145,8 @@ _JS_;
 	}
 
 	function ShowDefault() {
+		$open = "";
+		
 		if($this->NoJS) {
 			$list	= array_merge($this->weapon,$this->armor,$this->item,$this->other);
 			foreach($list as $str)
@@ -176,6 +187,11 @@ _JS_;
 	}
 
 	function ShowSelect() {
+		$armor = "";
+		$item = "";
+		$other = "";
+		$all = "";
+
 		if($this->NoJS)
 			return NULL;
 
