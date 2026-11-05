@@ -10,6 +10,8 @@ Code fixed by Kustale ( jinsu8527@gmail.com )
 */
 
 function DecideJudge($number,$My,$classBattle) {
+	$sum = 0;
+	$cnt = 0;
 	if($My->team == TEAM_0) {
 		$MyTeam	= $classBattle->team0;
 		$EnemyTeam	= $classBattle->team1;
