@@ -450,7 +450,7 @@ function ShowBattleLog($no,$type=false) {
 	print(date("m/d H:i:s",substr($time,0,10)));
 	print("</div>\n");
 
-	while($log["$row"]) {
+	while(isset($log["$row"])) {
 		print($log["$row"]);
 		$row++;
 	}
