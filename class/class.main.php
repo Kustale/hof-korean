@@ -1707,8 +1707,22 @@ JS_HTML;
 		print("</div>\n");
 	}
 
-	function WorkProcess() {
-		//nani...
+	function WorkProcess() { //이거 왜 삭제된거
+		if(__POST("amount")) {
+			$amount	= (int)__POST("amount");
+			if(0 < $amount && $amount < 11) {
+				$time	= $amount * 100;
+				$money	= $amount * 500;
+				if($this->WasteTime($time)) {
+					ShowResult(MoneyFormat($money)." 를 얻었다!","margin15");
+					$this->GetMoney($money);
+					return true;
+				} else {
+					ShowError("시간이 부족합니다.","margin15");
+					return false;
+				}
+			}
+		}
 	}
 
 	function WorkShow() {
