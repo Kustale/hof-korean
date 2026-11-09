@@ -38,32 +38,32 @@ function HaveNeeds($item,$UserItem) {
 
 function ItemAbilityPossibility($type) {
 	switch($type) {
-		case "Sword":
-		case "Dual-handed Sword":
-		case "Katana":
-		case "Dagger":
-		case "Wand":
-		case "Staff":
-		case "Bow":
-		case "Whip":
-		case "Summoning Banner":
-		case "Pistol":
-		case "Spear":
-		case "Secondary Pistol":
-		case "Scepter":
-		case "Axe":
-		case "Spear":
-		case "Spear":
-		case "Contract Stone":
-		case "Evil Sword":
-		case "Shuriken":
-		case "Scythe":
-		case "Battle Axe":
-		case "Holy Cross":
-		case "Dual Swords (Secondary)":
-		case "Dual Swords (Main)":
-		case "Claw":
-		case "Magic Broom":
+		case "상태":
+		case "바오판 주":
+		case "쿠웨이":
+		case "창편":
+		case "정자오":
+		case "자오":
+		case "광":
+		case "얀":
+		case "니앙지판":
+		case "판낭":
+		case "하이낭":
+		case "시안-판-낭":
+		case "판자오":
+		case "지안":
+		case "낭":
+		case "리":
+		case "에르아이펜":
+		case "슈 상태":
+		case "판잔 상태":
+		case "시웨이":
+		case "구지안":
+		case "위안펜쿤":
+		case "바오주(시안)":
+		case "바오 주(나)":
+		case "페이":
+		case "정-웨이-시-즈":
 		
 			$low	= array(
 			100,101,102,103,104,
@@ -92,14 +92,14 @@ function ItemAbilityPossibility($type) {
 			'A05','A06','A07','A08','A09',
 			);
 			break;
-		case "Shield":
-		case "Crystal Ball":
-		case "Book":
-		case "Armor":
-		case "Clothing":
-		case "Robe":
-		case "Back":
-		case "Headwear":
+		case "진":
+		case "방창바이":
+		case "뮤":
+		case "Zhe":
+		case "스주안":
+		case "하이누어":
+		case "쉬허":
+		case "유미":
 			$low	= array(
 			300,301,
 			350,351,

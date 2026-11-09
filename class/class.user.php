@@ -261,10 +261,12 @@ class user {
 	function AddItem($no,$amount=false) {
 		if(!isset($this->item))
 			$this->LoadUserItem();
+		if(!isset($this->item[$no]))
+			$this->item[$no] = 0;
 		if($amount)
-			if(isset($this->item[$no])) $this->item[$no]	+= $amount;
+			$this->item[$no]	+= $amount;
 		else
-			if(isset($this->item[$no])) $this->item[$no]++;
+			$this->item[$no]++;
 	}
 
 

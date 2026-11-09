@@ -200,7 +200,7 @@ function __count($value){
 				$val	= substr($str,++$pos);
 				$data[$key]	= trim($val);
 			}
-			if($data)
+			if(isset($data))
 				return $data;
 			else
 				return false;
@@ -223,7 +223,7 @@ function __count($value){
 				$val	= substr($str,++$pos);
 				$data[$key]	= trim($val);
 			}
-			if($data)
+			if(isset($data))
 				return $data;
 			else
 				return false;
@@ -449,7 +449,7 @@ function ShowBattleLog($no,$type=false) {
 	print("\nthis battle starts at<br />");
 	print(date("m/d H:i:s",substr($time,0,10)));
 	print("</div>\n");
-
+	
 	while(isset($log["$row"])) {
 		print($log["$row"]);
 		$row++;

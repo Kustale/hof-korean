@@ -37,23 +37,26 @@ class JS_ItemList {
 
 	function AddItem($item,$string) {
 		switch($item["type"]) {
-			case "Sword":
-			case "TwoHandSword":
-			case "Dagger":
-			case "Wand":
-			case "Staff":
-			case "Bow":
-			case "Whip":
+			case "검":
+			case "양손검":
+			case "단검":
+			case "창":
+			case "지팡이":
+			case "마법의 지팡이":
+			case "활":
+			case "막대":
+			case "망치":
+			case "채찍":
 				array_push($this->weapon,$string);
 				break;
-			case "Shield":
-			case "Book":
-			case "Armor":
-			case "Cloth":
-			case "Robe":
+			case "방패":
+			case "책":
+			case "갑":
+			case "의류":
+			case "장포":
 				array_push($this->armor,$string);
 				break;
-			case "Item":
+			case "아이템":
 				array_push($this->item,$string);
 				break;
 			default:

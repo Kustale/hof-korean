@@ -19,7 +19,6 @@ function LoadItemData($no) {
 	$option1	= substr($no,9,3);
 	$option2	= substr($no,12,3);
 
-
 	switch($base) {
 		case "1000":
 $item	= array(
@@ -103,7 +102,7 @@ $item	= array(
 ); break;
 		case "1008":
 $item	= array(
-"name"	=> "파형나이프",
+"name"	=> "파형검",
 "type"	=> "검",
 "buy"	=> "40000",
 "img"	=> "we_sword026.png",
@@ -200,7 +199,7 @@ $item	= array(
 ); break;
 		case "1023":
 $item	= array(
-"name"	=> "바나나 검",
+"name"	=> "바나나 소드?",
 "type"	=> "검",
 "buy"	=> "1000",
 "img"	=> "banana.png",
@@ -235,7 +234,6 @@ $item	= array(
 "option"	=> "Def/Mdef+10 ,SPD+10 ,",
 "need"	=> array("6120"=>"10","6121"=>"5","6122"=>"1",),
 ); break;
-
 		case "1100":
 $item	= array(
 "name"	=> "킬러 소드",
@@ -260,7 +258,7 @@ $item	= array(
 ); break;
 		case "1102":
 $item	= array(
-"name"	=> "작은 대검",
+"name"	=> "작언 대검",
 "type"	=> "양손검",
 "dh"	=> true,
 "buy"	=> "10000",
@@ -395,7 +393,7 @@ $item	= array(
 ); break;
 		case "1202":
 $item	= array(
-"name"	=> "스파르탄 단검",
+"name"	=> "스파르탄 숏소드",
 "type"	=> "단검",
 "buy"	=> "20000",
 "img"	=> "we_sword010.png",
@@ -449,7 +447,7 @@ $item	= array(
 ); break;
 		case "1207":
 $item	= array(
-"name"	=> "엘프 단검",
+"name"	=> "엘프 숏소드",
 "type"	=> "단검",
 "buy"	=> "70000",
 "img"	=> "we_sword010.png",
@@ -479,7 +477,7 @@ $item	= array(
 ); break;
 		case "1220":
 $item	= array(
-"name"	=> "바나나 단검",
+"name"	=> "바나나 숏소드",
 "type"	=> "단검",
 "buy"	=> "1000",
 "img"	=> "banana.png",
@@ -504,7 +502,7 @@ $item	= array(
 		case "1300":
 $item	= array(
 "name"	=> "미늘창",
-"type"	=> "총",
+"type"	=> "창",
 "dh"	=> true,
 "buy"	=> "1000",
 "img"	=> "we_spear016.png",
@@ -514,7 +512,7 @@ $item	= array(
 		case "1400":
 $item	= array(
 "name"	=> "던지는 창",
-"type"	=> "창",
+"type"	=> "창?",
 "buy"	=> "1000",
 "img"	=> "we_spear012.png",
 "atk"	=> array(14,0),
@@ -533,7 +531,7 @@ $item	= array(
 		case "1600":
 $item	= array(
 "name"	=> "배틀 액스",
-"type"	=> "짧은 손잡이 도끼",
+"type"	=> "짧은 자루 도끼",
 "buy"	=> "1000",
 "img"	=> "we_axe003.png",
 "atk"	=> array(17,0),
@@ -611,7 +609,7 @@ $item	= array(
 ); break;
 		case "1707":
 $item	= array(
-"name"	=> "유령 지팡이",
+"name"	=> "유령의 지팡이",
 "type"	=> "마법의 지팡이",
 "buy"	=> "30000",
 "img"	=> "we_staff002.png",
@@ -621,7 +619,7 @@ $item	= array(
 ); break;
 		case "1708":
 $item	= array(
-"name"	=> "퍼플 하트 지팡이",
+"name"	=> "퍼플 하드 스태프",
 "type"	=> "마법의 지팡이",
 "buy"	=> "35000",
 "img"	=> "we_staff002.png",
@@ -673,7 +671,7 @@ $item	= array(
 ); break;
 		case "1802":
 $item	= array(
-"name"	=> "마법의 지팡이",
+"name"	=> "마법의 자팡이",
 "type"	=> "막대",
 "dh"	=> true,
 "buy"	=> "14000",
@@ -748,10 +746,9 @@ $item	= array(
 "need"	=> array("6024"=>"30","6803"=>"1",),
 "handle"=> "12",
 ); break;
-
 		case "1810":
 $item	= array(
-"name"	=> "마법 지팡이",
+"name"	=> "마법지팡이",
 "type"	=> "막대",
 "dh"	=> true,
 "buy"	=> "20000",
@@ -814,7 +811,7 @@ $item	= array(
 "option"	=> "SP+250 ,",
 "need"	=> array("6024"=> 50,"6005"=> 30,"6804"=> 1,),
 ); break;
-		case "1900":	
+		case "1900":
 $item	= array(
 "name"	=> "청동망치",
 "type"	=> "망치",
@@ -823,7 +820,7 @@ $item	= array(
 "atk"	=> array(5,5),
 "handle"=> "2",
 ); break;
-		case "2000":	
+		case "2000":
 $item	= array(
 "name"	=> "단궁",
 "type"	=> "활",
@@ -891,7 +888,7 @@ $item	= array(
 ); break;
 		case "2006":
 $item	= array(
-"name"	=> "로빈 후드 활",
+"name"	=> "로빈 후드 보우",
 "type"	=> "활",
 "dh"	=> true,
 "buy"	=> "45000",
@@ -913,7 +910,7 @@ $item	= array(
 ); break;
 		case "2008":
 $item	= array(
-"name"	=> "아르테미스 활",
+"name"	=> "아르테미스의 활",
 "type"	=> "활",
 "dh"	=> true,
 "buy"	=> "75000",
@@ -935,7 +932,7 @@ $item	= array(
 ); break;
 		case "2010":
 $item	= array(
-"name"	=> "실버 삼각궁",
+"name"	=> "은 삼각궁",
 "type"	=> "활",
 "dh"	=> true,
 "buy"	=> "105000",
@@ -970,7 +967,7 @@ $item	= array(
 ); break;
 		case "2021":
 $item	= array(
-"name"	=> "싸이코 활",
+"name"	=> "사이코 보우",
 "type"	=> "활",
 "dh"	=> true,
 "buy"	=> "200000",
@@ -981,11 +978,10 @@ $item	= array(
 "need"	=> array("6024"=>"40","6182"=>"20","6804"=>"3",),
 "option"	=> "물리적 방어 무시+60 ,",
 ); break;
-
 		case "2100":
 $item	= array(
 "name"	=> "석궁수",
-"type"	=> "노",
+"type"	=> "쇠뇌",
 "dh"	=> true,
 "buy"	=> "1000",
 "img"	=> "we_bow013.png",
@@ -1027,7 +1023,7 @@ $item	= array(
 ); break;
 		case "2203":
 $item	= array(
-"name"	=> "전갈채찍",
+"name"	=> "전갈 채찍",
 "type"	=> "채찍",
 "buy"	=> "40000",
 "img"	=> "we_other007.png",
@@ -1082,7 +1078,7 @@ $item	= array(
 ); break;
 		case "2211":
 $item	= array(
-"name"	=> "은꼬리채찍",
+"name"	=> "은 꼬리 채찍",
 "type"	=> "채찍",
 "buy"	=> "70000",
 "img"	=> "we_other007.png",
@@ -1115,7 +1111,7 @@ $item	= array(
 ); break;
 		case "3000":
 $item	= array(
-"name"	=> "나무 방패",
+"name"	=> "나무방패",
 "type"	=> "방패",
 "buy"	=> "1000",
 "img"	=> "shield_001m.png",
@@ -1215,7 +1211,7 @@ $item	= array(
 ); break;
 		case "3010":
 $item	= array(
-"name"	=> "디펜스 실드",
+"name"	=> "디펜스 쉴드",
 "type"	=> "방패",
 "buy"	=> "30000",
 "img"	=> "shield_001m.png",
@@ -1235,7 +1231,7 @@ $item	= array(
 ); break;
 		case "3012":
 $item	= array(
-"name"	=> "마왕방패",
+"name"	=> "마왕 방패",
 "type"	=> "방패",
 "buy"	=> "40000",
 "img"	=> "shield_001m.png",
@@ -1243,7 +1239,7 @@ $item	= array(
 "handle"=> "8",
 "need"	=> array("6004"=>"30","6005"=>"20","6121"=>"1",),
 ); break;
-		case "3100":	
+		case "3100":
 $item	= array(
 "name"	=> "교과서",
 "type"	=> "책",
@@ -1320,7 +1316,7 @@ $item	= array(
 "handle"=> "6",
 "need"	=> array("6185"=>"50",),
 ); break;
-		case "5000":	
+		case "5000":
 $item	= array(
 "name"	=> "가죽 갑옷",
 "type"	=> "갑",
@@ -1342,7 +1338,7 @@ $item	= array(
 ); break;
 		case "5002":
 $item	= array(
-"name"	=> "체인갑",
+"name"	=> "체인 아머",
 "type"	=> "갑",
 "buy"	=> "5000",
 "img"	=> "armor_016b.png",
@@ -1362,7 +1358,7 @@ $item	= array(
 ); break;
 		case "5004":
 $item	= array(
-"name"	=> "은색 갑옷",
+"name"	=> "은갑",
 "type"	=> "갑",
 "buy"	=> "8000",
 "img"	=> "armor_016b.png",
@@ -1372,7 +1368,7 @@ $item	= array(
 ); break;
 		case "5005":
 $item	= array(
-"name"	=> "반갑옷",
+"name"	=> "반갑",
 "type"	=> "갑",
 "buy"	=> "10000",
 "img"	=> "armor_016b.png",
@@ -1382,7 +1378,7 @@ $item	= array(
 ); break;
 		case "5006":
 $item	= array(
-"name"	=> "드래곤 갑옷",
+"name"	=> "용갑",
 "type"	=> "갑",
 "buy"	=> "14000",
 "img"	=> "armor_016b.png",
@@ -1422,7 +1418,7 @@ $item	= array(
 ); break;
 		case "5010":
 $item	= array(
-"name"	=> "트로프 갑옷",
+"name"	=> "트로프 아머",
 "type"	=> "갑",
 "buy"	=> "25000",
 "img"	=> "armor_016b.png",
@@ -1451,7 +1447,7 @@ $item	= array(
 ); break;
 		case "5013":
 $item	= array(
-"name"	=> "금갑옷",
+"name"	=> "금갑",
 "type"	=> "갑",
 "buy"	=> "40000",
 "img"	=> "armor_016b.png",
@@ -1471,7 +1467,7 @@ $item	= array(
 ); break;
 		case "5015":
 $item	= array(
-"name"	=> "크리스털 네일",
+"name"	=> "크리스탈 네일",
 "type"	=> "갑",
 "buy"	=> "80000",
 "img"	=> "armor_016b.png",
@@ -1509,7 +1505,7 @@ $item	= array(
 "handle"=> "20",
 "need"	=> array("6005"=>"50","6122"=>"2",),
 ); break;
-		case "5100":	
+		case "5100":
 $item	= array(
 "name"	=> "면 속옷",
 "type"	=> "의류",
@@ -1521,7 +1517,7 @@ $item	= array(
 ); break;
 		case "5101":
 $item	= array(
-"name"	=> "가죽 재킷",
+"name"	=> "레더 재킷",
 "type"	=> "의류",
 "buy"	=> "1000",
 "img"	=> "armor_014e.png",
@@ -1609,7 +1605,7 @@ $item	= array(
 "handle"=> "10",
 "need"	=> array("6041"=>"10","6185"=>"20","6122"=>"1",),
 ); break;
-		case "5200":	
+		case "5200":
 $item	= array(
 "name"	=> "면 가운",
 "type"	=> "장포",
@@ -1671,7 +1667,7 @@ $item	= array(
 ); break;
 		case "5206":
 $item	= array(
-"name"	=> "성스러운 로브",
+"name"	=> "성스로운 로브",
 "type"	=> "장포",
 "buy"	=> "14000",
 "img"	=> "armor_012.png",
@@ -1719,7 +1715,6 @@ $item	= array(
 "P_MAXSP"	=> "20",
 "option"	=> "MAXSP+20, ",
 ); break;
-
 		case "5510":
 $item	= array(
 "name"	=> "힘의 반지",
@@ -1732,7 +1727,7 @@ $item	= array(
 ); break;
 		case "5515":
 $item	= array(
-"name"	=> "스마트 링",
+"name"	=> "지혜의 반지",
 "type"	=> "아이템",
 "buy"	=> "10000",
 "img"	=> "acce_024.png",
@@ -1742,7 +1737,7 @@ $item	= array(
 ); break;
 		case "5520":
 $item	= array(
-"name"	=> "클레버 링",
+"name"	=> "민첩의 반지",
 "type"	=> "아이템",
 "buy"	=> "10000",
 "img"	=> "acce_024.png",
@@ -1752,7 +1747,7 @@ $item	= array(
 ); break;
 		case "5525":
 $item	= array(
-"name"	=> "스피드 링",
+"name"	=> "이속의 반지",
 "type"	=> "아이템",
 "buy"	=> "10000",
 "img"	=> "acce_024.png",
@@ -1772,7 +1767,7 @@ $item	= array(
 ); break;
 		case "5540":
 $item	= array(
-"name"	=> "빅 라이프 링",
+"name"	=> "빅 라이브 링",
 "type"	=> "아이템",
 "buy"	=> "10000",
 "img"	=> "acce_024.png",
@@ -1790,7 +1785,6 @@ $item	= array(
 "P_MAXSP"	=> "200",
 "option"	=> "MAXSP+200, ",
 ); break;
-
 		case "5600":
 $item	= array(
 "name"	=> "분노의 반지",
@@ -1802,7 +1796,6 @@ $item	= array(
 "M_MAXHP"	=> "-50",
 "option"	=> "STR+100, HP-50% ,",
 ); break;
-
 		case "5700":
 $item	= array(
 "name"	=> "전능한 반지",
@@ -1821,7 +1814,7 @@ $item	= array(
 ); break;
 		case "5800":
 $item	= array(
-"name"	=> "소환 반지",
+"name"	=> "소환의 반지",
 "type"	=> "아이템",
 "buy"	=> "10000",
 "img"	=> "acce_024.png",
@@ -1871,7 +1864,7 @@ $item	= array(
 ); break;
 		case "6005":
 $item	= array(
-"name"	=> "청금석",
+"name"	=> "청금",
 "type"	=> "재료",
 "buy"	=> "1000",
 "sell"	=> "30",
@@ -2260,7 +2253,7 @@ $item	= array(
 ); break;
 		case "7111":
 $item	= array(
-"name"	=> "눈알 괴물 눈물",
+"name"	=> "눈알 괴물의 눈물",
 "type"	=> "재료",
 "buy"	=> "3000",
 "sell"	=> "100",
@@ -2386,7 +2379,7 @@ $item	= array(
 ); break;
 		case "7125":
 $item	= array(
-"name"	=> "피에 굶주린 해골 눈물",
+"name"	=> "피에 굶주린 해골의 눈물",
 "type"	=> "재료",
 "buy"	=> "3000",
 "sell"	=> "100",
@@ -2430,7 +2423,7 @@ $item	= array(
 ); break;
 		case "7510":
 $item	= array(
-"name"	=> "크리스탈 리셋 (상태1)",
+"name"	=> "크리스탈 리셋(상태 1)",
 "type"	=> "기타",
 "buy"	=> "1000000",
 "sell"	=> "100",
@@ -2438,7 +2431,7 @@ $item	= array(
 ); break;
 		case "7511":
 $item	= array(
-"name"	=> "크리스탈 리셋 (상태30)",
+"name"	=> "크리스탈 리셋(상태 30)",
 "type"	=> "기타",
 "buy"	=> "500000",
 "sell"	=> "100",
@@ -2446,7 +2439,7 @@ $item	= array(
 ); break;
 		case "7512":
 $item	= array(
-"name"	=> "크리스탈 리셋 (상태50)",
+"name"	=> "크리스탈 리셋(상태 50)",
 "type"	=> "기타",
 "buy"	=> "200000",
 "sell"	=> "100",
@@ -2454,7 +2447,7 @@ $item	= array(
 ); break;
 		case "7513":
 $item	= array(
-"name"	=> "크리스탈 리셋 (상태100)",
+"name"	=> "크리스탈 리셋(상태 100)",
 "type"	=> "기타",
 "buy"	=> "50000",
 "sell"	=> "100",
@@ -2630,7 +2623,7 @@ $item        = array(
 ); break;
 		case "8024":
 $item        = array(
-"name"        => "딥 블루 해역",
+"name"        => "딥 블루 씨",
 "type"        => "지도",
 "buy"        => "20000",
 "sell"        => "100",
@@ -2678,7 +2671,7 @@ $item        = array(
 ); break;
 		case "8030":
 $item        = array(
-"name"        => "RPG타운",
+"name"        => "RPG 타운",
 "type"        => "지도",
 "buy"        => "20000",
 "sell"        => "100",
@@ -2686,7 +2679,7 @@ $item        = array(
 ); break;
 		case "9000":
 $item	= array(
-"name"	=> "경매회원권",
+"name"	=> "경매 회원권",
 "type"	=> "특수",
 "buy"	=> "9999",
 "sell"	=> "100",

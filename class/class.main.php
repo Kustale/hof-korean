@@ -565,11 +565,15 @@ EOF;
 				}	break;
 			case(__POST("equip_item")):
 				$item_no	= __POST("item_no");
-				if(!$this->item["$item_no"]) {
-					ShowError("Item not exists.","margin15");
+				if($item_no != ""){
+					if(!$this->item["$item_no"]) {
+						ShowError("Item not exists.","margin15");
+						return false;
+					}
+				}else{
+					ShowError("Please select corrent item.","margin15");
 					return false;
 				}
-
 				$JobData	= LoadJobData($char->job);
 				$item	= LoadItemData($item_no);
 				if( !in_array( $item["type"], $JobData["equip"]) ) {
